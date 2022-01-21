@@ -1,0 +1,284 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Asm 1",
+		"_postman_id": "eba68bf9-a569-3c29-efc6-58b5fffc7c5f",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:9010/user",
+			"request": {
+				"url": "localhost:9010/user",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "Basic YWRtaW46MTIzNDU=",
+						"description": ""
+					},
+					{
+						"key": "x-access-token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwdWJsaWNfaWQiOiI3OGMzNDBjNS1lZTI1LTRhY2QtOGQzNy0xN2EzZjdjYWQwNTMiLCJleHAiOjE2NDI3NTQ4ODZ9.-Urll-cbRFWtcDg9V5UWGO_WC33_LZZLZIXUFYjVOHw",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"name\" : \"kay\", \"password\" : \"12345\"}"
+				},
+				"description": "POST"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:9010/user",
+			"request": {
+				"url": "localhost:9010/user",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "Basic YWRtaW46MTIzNDU=",
+						"description": ""
+					},
+					{
+						"key": "x-access-token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwdWJsaWNfaWQiOiI3OGMzNDBjNS1lZTI1LTRhY2QtOGQzNy0xN2EzZjdjYWQwNTMiLCJleHAiOjE2NDI3NTQ4ODZ9.-Urll-cbRFWtcDg9V5UWGO_WC33_LZZLZIXUFYjVOHw",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": "GET all users"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:9010/user/78c340c5-ee25-4acd-8d37-17a3f7cad053",
+			"request": {
+				"url": "localhost:9010/user/78c340c5-ee25-4acd-8d37-17a3f7cad053",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic YWRtaW46MTIzNDU=",
+						"description": ""
+					},
+					{
+						"key": "x-access-token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwdWJsaWNfaWQiOiI3OGMzNDBjNS1lZTI1LTRhY2QtOGQzNy0xN2EzZjdjYWQwNTMiLCJleHAiOjE2NDI3NTQ4ODZ9.-Urll-cbRFWtcDg9V5UWGO_WC33_LZZLZIXUFYjVOHw",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": "GET one user w/ public id"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:9010/user/78c340c5-ee25-4acd-8d37-17a3f7cad053",
+			"request": {
+				"url": "localhost:9010/user/78c340c5-ee25-4acd-8d37-17a3f7cad053",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic YWRtaW46MTIzNDU=",
+						"description": ""
+					},
+					{
+						"key": "x-access-token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwdWJsaWNfaWQiOiI3OGMzNDBjNS1lZTI1LTRhY2QtOGQzNy0xN2EzZjdjYWQwNTMiLCJleHAiOjE2NDI3NTQ4ODZ9.-Urll-cbRFWtcDg9V5UWGO_WC33_LZZLZIXUFYjVOHw",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": "PUT Promote user"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:9010/user/752e2825-9819-4882-b7d4-ce8e7a8b71cf",
+			"request": {
+				"url": "localhost:9010/user/213f3e49-49c0-4f2d-b646-4bcde68d849a",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic YWRtaW46MTIzNDU=",
+						"description": ""
+					},
+					{
+						"key": "x-access-token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwdWJsaWNfaWQiOiI3OGMzNDBjNS1lZTI1LTRhY2QtOGQzNy0xN2EzZjdjYWQwNTMiLCJleHAiOjE2NDI3NTQ4ODZ9.-Urll-cbRFWtcDg9V5UWGO_WC33_LZZLZIXUFYjVOHw",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": "DELETE deleted user id 2 "
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:9010/login",
+			"request": {
+				"url": "localhost:9010/login",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic YWRtaW46MTIzNDU=",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": "GET Token"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:9010/todo",
+			"request": {
+				"url": "localhost:9010/todo",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic YWRtaW46MTIzNDU=",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "x-access-token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwdWJsaWNfaWQiOiI3OGMzNDBjNS1lZTI1LTRhY2QtOGQzNy0xN2EzZjdjYWQwNTMiLCJleHAiOjE2NDI3NTY3MzB9.U-lNMlVCdlaDYST9pnJAfoMfUcod0tgsInCSwgoITAg",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"text\":\"3rd trial\"}"
+				},
+				"description": "PUT create new todo"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:9010/todo",
+			"request": {
+				"url": "localhost:9010/todo",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic YWRtaW46MTIzNDU=",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "x-access-token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwdWJsaWNfaWQiOiI3OGMzNDBjNS1lZTI1LTRhY2QtOGQzNy0xN2EzZjdjYWQwNTMiLCJleHAiOjE2NDI3NTY3MzB9.U-lNMlVCdlaDYST9pnJAfoMfUcod0tgsInCSwgoITAg",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": "GET all todo"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:9010/todo/2",
+			"request": {
+				"url": "localhost:9010/todo/2",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic YWRtaW46MTIzNDU=",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "x-access-token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwdWJsaWNfaWQiOiI3OGMzNDBjNS1lZTI1LTRhY2QtOGQzNy0xN2EzZjdjYWQwNTMiLCJleHAiOjE2NDI3NTY3MzB9.U-lNMlVCdlaDYST9pnJAfoMfUcod0tgsInCSwgoITAg",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": "GET get one todo by id"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:9010/todo/2",
+			"request": {
+				"url": "localhost:9010/todo/2",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic YWRtaW46MTIzNDU=",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "x-access-token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwdWJsaWNfaWQiOiI3OGMzNDBjNS1lZTI1LTRhY2QtOGQzNy0xN2EzZjdjYWQwNTMiLCJleHAiOjE2NDI3NTY3MzB9.U-lNMlVCdlaDYST9pnJAfoMfUcod0tgsInCSwgoITAg",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": "PUT complete todo"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:9010/todo/3",
+			"request": {
+				"url": "localhost:9010/todo/3",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "x-access-token",
+						"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwdWJsaWNfaWQiOiI3OGMzNDBjNS1lZTI1LTRhY2QtOGQzNy0xN2EzZjdjYWQwNTMiLCJleHAiOjE2NDI3NTY3MzB9.U-lNMlVCdlaDYST9pnJAfoMfUcod0tgsInCSwgoITAg",
+						"description": ""
+					},
+					{
+						"key": "Authorization",
+						"value": "Basic YWRtaW46MTIzNDU=",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": "DELETE Todo deleted"
+			},
+			"response": []
+		}
+	]
+}
